@@ -19,6 +19,7 @@ body {
   padding: 50px;
   place-items: center;
   border-radius: 20px;
+  margin: 0 20px;
 }
 .para {
   color: white;
@@ -34,4 +35,10 @@ body {
   border-radius: 10px;
   border: none;
   outline: none;
+}
+
+@media (max-width: 450px) {
+  .container {
+    padding: 50px 20px;
+  }
 }
